@@ -1,7 +1,8 @@
 /* Home/Landing-Page */
 .welcome-box {
   height: 500px;
-  background-color: #ffb037;
+  background-image: url("https://media-public.canva.com/MADGx7Yo4SY/4/screen_2x.jpg");
+  background-color: #d1c2ee;
   padding: 7% 15%;
 }
 
