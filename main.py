@@ -296,7 +296,7 @@ def delete_tag(tag_id):
 
 @app.route("/dashboard/<username>")
 @login_required
-def show_dashboard(user_name):
+def show_dashboard(username):
     user_task = Task.query.filter_by(creator_id=current_user.id).all()
     user_tags = []
     for tag in Tag.query.all():
