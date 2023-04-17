@@ -172,7 +172,6 @@ def register():
             db.session.commit()
 
             login_user(new_user)
-            flash("Registered successfully!")
             return redirect(url_for("show_dashboard", username=current_user.username))
         flash("This email has already been registered. Please sign in.")
         return redirect(url_for("login"))
