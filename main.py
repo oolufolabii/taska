@@ -18,10 +18,10 @@ from typing import Callable
 
 app = Flask(__name__)
 
-app.config["SECRET_KEY"] = 'any secret'
+app.config["SECRET_KEY"] = 'secret'
 
 # Database connection
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///blog.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///userdata.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 Bootstrap(app)
