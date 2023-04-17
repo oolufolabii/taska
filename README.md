@@ -19,7 +19,8 @@ The web-app is recommended to run in a virtual environment. The command below wi
 WARNING: Ensure you have the latest python and pip intalled on your device
 
 - Download and install Python3 on your computer
-- Install virtualenv to create a virtual environment user `% pip3 install virtualenv`
+- Update ` pip ` by running the command ` python.exe -m pip install --upgrade pip ` on Windows or `pip install --upgrade pip` on Linux
+- Install virtualenv to create a virtual environment user `pip3 install virtualenv`
 - Create a new virtual environmentuser `% virtualenv < prefered environment name(i.e venv) >`
 - Enable virtual environment user `% source venv/bin/activate`
 - Install all required dependecies using requirements.txt as follow: `$ pip install -r requirements.txt`

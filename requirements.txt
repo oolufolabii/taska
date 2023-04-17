@@ -2,11 +2,11 @@ click
 dnspython
 dominate
 email-validator
-Flask
-Flask-Bootstrap
-Flask-Login
-Flask-SQLAlchemy
-Flask-WTF
+Flask==2.1.2
+Flask-Bootstrap==3.3.7.1
+Flask-Login==0.6.1
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==1.0.1
 greenlet
 idna
 importlib-metadata
