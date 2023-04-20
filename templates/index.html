@@ -6,7 +6,7 @@
 		<div class="row">
 		  <div class="col-lg-6 col-md-10">
 			<h1 class="big-header">Taska</h1>
-			<h3 class="sub-header">Manage your project tasks with ease...</h3>
+			<h3 class="lower-header">Manage your project tasks with ease...</h3>
 		  </div>
 		  <div class="col-lg-6 col-md-10">
 			<div class="p-tags">
@@ -16,7 +16,7 @@
 			</div>
 			{% if not current_user.is_authenticated %}
 			<div class="new-user-options">
-			<h3 class="sub-header">First time here?</h3>
+			<h3 class="lower-header">First time here?</h3>
 			<a href="{{ url_for('register') }}" class="btn btn-outline-dark btn-lg" type="button" name="button">Get started <i class="fas fa-arrow-right"></i></a>
 			</div>
 			{% endif %}
