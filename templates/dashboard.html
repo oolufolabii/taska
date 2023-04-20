@@ -6,12 +6,12 @@
 </section>
 <section class="dashboard-section">
     <div class="dashboard">
-        <h1 style="margin-left: 8%;" class="dash-heading">Your Dashboard{{ current_user.username }},</h1>
-        <div class="boards">
+        <h1 style="margin-left: 8%;" class="dashboard-heading">Your Dashboard{{ current_user.username }},</h1>
+        <div class="task_boards">
             <a href="{{ url_for('add_new_tag') }}" type="button" class="add-board-btn btn btn-warning btn-sm">Add A New Board
                 <i class="fas fa-plus"></i></a>
             {% for tag in tags %}
-            <div class="board">
+            <div class="task_board">
                 <h3 class="tag-header">{{ tag.tag_name }}</h3>
                 <div class="board-buttons">
                     <p style="text-align:right;">
@@ -25,7 +25,7 @@
                 </div>
                 {% for task in user_tasks %}
                 {% if task.tag_id == tag.id %}
-                <div class="task-div">
+                <div class="tasks-div">
 
                     {% if task.progress == 0 %}
                     <h3 class="task-name">{{ task.title }}</h3>
@@ -33,7 +33,7 @@
                     <h3 class="task-name" style="text-decoration: line-through;">{{ task.title }}</h3>
                     {% endif %}
 
-                    <div class="desc-div">
+                    <div class="description-div">
                         <p class="task-desc">{{ task.description }}</p>
                     </div>
                     {% if not task.due_date is none %}
