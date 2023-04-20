@@ -50,7 +50,7 @@
 /* ------------------------------------------------ */
 
 
-.sub-header {
+.lower-header {
   color: #1b1a17;
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
@@ -59,7 +59,7 @@
 }
 
 
-/* Dashboard */
+/* The Dashboard Styling Section */
 .dashboard-section {
   background-color: #b4aee8;
   padding: 3%;
@@ -76,12 +76,12 @@
   padding-top: 3px;
 }
 
-.dash-heading {
+.dashboard-heading {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.boards {
+.task_boards {
   display: flex;
   overflow-x: auto;
   padding: 3%;
@@ -89,9 +89,9 @@
   position: relative;
 }
 
-.board {
+.task_board {
   text-align: center;
-  min-height: 100%;
+  min-height: 99%;
   min-width: 30%;
   margin: 5%;
   border: solid;
@@ -109,7 +109,7 @@
   color: #7b113a;
 }
 
-.task-div {
+.tasks-div {
   text-align: left;
   margin: 3%;
   padding: 3%;
@@ -120,7 +120,7 @@
   position: relative;
 }
 
-.desc-div {
+.description-div {
   padding: 1.5%;
   margin: auto;
   border: 1px solid;
@@ -131,7 +131,7 @@
 .task-name {
   margin: 3% 0;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 595;
   line-height: 1.2;
 }
 
@@ -145,15 +145,15 @@
 .edit-task-btn {
   font-weight: bold;
   text-align: center;
-  border-radius: 100%;
+  border-radius: 99%;
 }
 
 .delete-task-btn {
   font-weight: bold;
   text-align: center;
-  border-radius: 100%;
+  border-radius: 99%;
 }
 
 .check-box {
-  border-radius: 100%;
+  border-radius: 99%;
 }
