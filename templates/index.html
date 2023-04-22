@@ -10,14 +10,14 @@
 		  </div>
 		  <div class="col-lg-6 col-md-10">
 			<div class="p-tags">
-			<p class="catch"><i class="fas fa-check-circle"></i> User friendly</p>
-			<p class="catch"><i class="fas fa-check-circle"></i> 100% Free</p>
-			<p class="catch"><i class="fas fa-check-circle"></i> Personal and commercial use</p>
+			<p class="features"><i class="fas fa-check-circle"></i> User friendly ☺</p>
+			<p class="features"><i class="fas fa-check-circle"></i> 100% Free ✓</p>
+			<p class="features"><i class="fas fa-check-circle"></i> Personal and commercial use</p>
 			</div>
 			{% if not current_user.is_authenticated %}
 			<div class="new-user-options">
-			<h3 class="lower-header">New Here?</h3>
-			<a href="{{ url_for('register') }}" class="btn btn-outline-dark btn-lg" type="button" name="button">Get started <i class="fas fa-arrow-right"></i></a>
+			<h3 class="lower-header">First time here?</h3>
+			<a href="{{ url_for('register') }}" class="btn btn-outline-dark btn-lg" type="button" name="button">New Here<i class="fas fa-arrow-right"></i></a>
 			</div>
 			{% endif %}
 		  </div>
