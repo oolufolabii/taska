@@ -15,6 +15,11 @@
   line-height: 1;
 }
 
+.catch {
+  font-weight: 600;
+  line-height: 1;
+}
+
 /* Forms */
 .form-container {
   padding: 5.5% 20%;
